@@ -1,16 +1,28 @@
-import { Link } from 'react-router-dom';
-import  '../styles/navbar.css';
+import { Link, NavLink } from 'react-router-dom';
+import '../styles/navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">Delancey Finney</h2>
+      <div className="navbar-inner">
+        <Link to="/" className="logo">
+          Delancey Finney
+        </Link>
 
-      <div className="nav-links">
-        <Link to="/">Home</Link>
-        <Link to="/community">Community</Link>
-        <Link to="/training">Training</Link>
-        <Link to="/contact">Contact</Link>
+        <div className="nav-links">
+          <NavLink to="/" end>
+            Home
+          </NavLink>
+          <NavLink to="/community">
+            Community
+          </NavLink>
+          <NavLink to="/training">
+            Training
+          </NavLink>
+          <NavLink to="/contact">
+            Contact
+          </NavLink>
+        </div>
       </div>
     </nav>
   );
