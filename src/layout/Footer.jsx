@@ -1,7 +1,11 @@
+import '../styles/footer.css';
+
 function Footer() {
   return (
-    <footer>
-      <p>© {new Date().getFullYear()} Delancey Finney</p>
+    <footer className="footer">
+      <div className="footer-inner">
+        <p>© {new Date().getFullYear()} Delancey Finney</p>
+      </div>
     </footer>
   );
 }
