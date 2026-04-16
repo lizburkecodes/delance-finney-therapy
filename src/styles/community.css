@@ -1,0 +1,111 @@
+.community-page {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.community-header {
+  max-width: 760px;
+}
+
+.section-label {
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.community-header h1 {
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 500;
+  line-height: 1.12;
+  margin-bottom: 1.5rem;
+}
+
+.community-intro {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  max-width: 680px;
+}
+
+.community-section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.community-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(23, 77, 110, 0.12);
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
+.community-card h2 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.role-meta {
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.community-card p {
+  line-height: 1.75;
+}
+
+.community-values h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.external-link {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--accent);
+  transition: all 0.2s ease;
+}
+
+.external-link:hover {
+  color: var(--accent);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.value-card {
+  background-color: rgba(200, 165, 148, 0.16);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+}
+
+.value-card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.value-card p {
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .community-section,
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .community-page {
+    gap: 3rem;
+  }
+}
