@@ -7,7 +7,7 @@
 
 /* LEFT SIDE */
 .intro-text h1 {
-  font-size: clamp(2.8rem, 4vw, 3.5rem);
+  font-size: clamp(2rem, 3vw, 2.6rem);
   font-weight: 500;
   margin-bottom: 0.75rem;
   max-width: 620px;
@@ -15,7 +15,7 @@
 
 .credentials {
   color: var(--accent);
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
