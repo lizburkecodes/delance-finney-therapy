@@ -99,6 +99,32 @@
   line-height: 1.7;
 }
 
+.event-schedule {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(23, 77, 110, 0.12);
+}
+
+.event-schedule h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.event-item + .event-item {
+  margin-top: 1.25rem;
+}
+
+.event-title {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.event-item p {
+  margin-bottom: 0.25rem;
+  line-height: 1.6;
+}
+
 @media (max-width: 900px) {
   .community-section,
   .values-grid {
