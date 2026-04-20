@@ -60,6 +60,7 @@ function Community() {
               <p className="event-title">Beermiscuous</p>
               <p>Second Tuesday of every month</p>
               <p>2812 N Lincoln Ave, Chicago, IL 60657</p>
+              <p>(773) 698-6824</p>
             </div>
 
             <a
