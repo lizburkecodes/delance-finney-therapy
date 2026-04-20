@@ -66,7 +66,7 @@ function Community() {
               href="https://www.instagram.com/switchsocials/"
               target="_blank"
               rel="noopener noreferrer"
-              className="external-link"
+              className="external-link ig-link"
             >
               Follow Switch Socials on Instagram
             </a>
