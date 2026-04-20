@@ -17,7 +17,7 @@ function Navbar() {
             Community
           </NavLink>
           <NavLink to="/training">
-            Training
+            Experience
           </NavLink>
           <NavLink to="/contact">
             Contact
